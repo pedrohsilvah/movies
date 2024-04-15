@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { BiCameraMovie, BiSearchAlt2 } from "react-icons/bi";
 
+import './NavbarStyle.css'
+
 const Navbar = () => {
     return (
         <nav id='navbar'>
@@ -10,7 +12,7 @@ const Navbar = () => {
                 </Link>
             </h2>
             <form>
-                <input type="text"  placeholder="Busque um filmer" />
+                <input type="text"  placeholder="Busque um filme" /> 
                 <button type='submit'>
                     <BiSearchAlt2 />
                 </button>
